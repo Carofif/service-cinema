@@ -1,2 +1,24 @@
 # service-cinema
-Ce projet une appli mobile qui va permettre aux utilisateurs de passer des commandes dans un cinéma en plein air
+
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

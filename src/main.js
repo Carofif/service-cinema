@@ -13,7 +13,6 @@ Vue.use(device);
 Vue.use(VueInstaller);
 
 Vue.config.productionTip = false;
-
 new Vue({
   router,
   store,

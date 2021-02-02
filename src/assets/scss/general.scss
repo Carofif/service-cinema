@@ -5,3 +5,50 @@ html,body {
   height: 100%;
   width: 100%;
 }
+.app_left{
+  height: 100vh;
+  left: 0;
+  position: fixed;
+}
+
+.card-connexion {
+  backdrop-filter: blur(5px);
+  padding: 35px;
+}
+.modal-background {
+  background-color: $transparent;
+}
+
+.border-card {
+  border-radius: 30px !important;
+}
+.input {
+  height: 20px;
+}
+.card-footer {
+  background-color: $primary;
+}
+.position {
+  display: flex;
+}
+.labelpos {
+  flex-basis: 75px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  margin-right: 5px;
+  text-align: right;
+  font-weight: 400;
+}
+.inputpos {
+  display: flex;
+  flex-basis: 0;
+  flex-grow: 5;
+  flex-shrink: 1;
+}
+.positionLogo {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: -20px;
+}

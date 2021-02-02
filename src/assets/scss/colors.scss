@@ -1,0 +1,32 @@
+// Couleur principale
+$primary: #FEB802;
+
+// Couleur secondaire
+$title: #3F3D56;
+$title-second: #2C3E50;
+$default: #7C7B8B;
+$net: #6C6C6C;
+$background: #FDFCF8;
+
+// Couleur des etats
+$etat_new: #82AC76;
+$etat_good: #4178CD;
+$etat_bad: #E25D5D;
+
+$no_click: #D7D6E3;
+
+$transparent: transparent;
+
+$addColors: (
+  "primary": ($primary, $white),
+  "title": ($title, $white),
+  "title2": ($title-second, $white),
+  "default": ($default, $white),
+  "net": ($net, $white),
+  'background': ($background, $white),
+  "etat_new": ($etat_new, $white),
+  "etat_good": ($etat_good, $white),
+  "etat_bad": ($etat_bad, $white),
+  "transparent": ($transparent, $black),
+  "no_click": ($no_click, $black)
+);
